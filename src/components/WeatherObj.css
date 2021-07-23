@@ -1,0 +1,20 @@
+.weather__object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 50%;
+    background-color: #FADB39;
+    position: absolute;
+    bottom: -35vh;
+    right: -25vh;
+}
+
+.weather__object-value {
+    position: relative;
+    bottom: 5vh;
+    right: 5vh;
+    font-size: 40vh;
+    color: #fff;
+}

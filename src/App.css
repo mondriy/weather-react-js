@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Staatliches', cursive;
+  overflow:hidden;
+}
+
+div {
+  margin: 0;
+  line-height: 1;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(107.84deg, #A4D7E7 -34.38%, #089CCB 103.54%);
+}
+
+.bg-info {
+  width: 70vw;
+  height: inherit;
+  background: linear-gradient(301.57deg, #A4D7E7 -40.74%, #089CCB 84.78%);
+  clip-path: 
+    polygon(0% 0%, 100% 0%, 65% 100%, 0% 100%);
+}
+
+.status {
+  margin-top: 8vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  padding: 12vh 16vh;
+}
